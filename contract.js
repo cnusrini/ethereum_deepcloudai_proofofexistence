@@ -1,5 +1,5 @@
 import web3 from './web3';
-import poeContract from './build/contracts/ProofOfExistence.json';
+//import poeContract from './build/contracts/ProofOfExistence.json';
 
 const address = '0x5b65810427330a935d4e30b90189d880ce9db652'
 
