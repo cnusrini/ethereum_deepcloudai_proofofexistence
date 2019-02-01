@@ -7,7 +7,7 @@ const handler = routes.getRequestHandler(app)
 // Without express
 const {createServer} = require('http')
 app.prepare().then(() => {
-  createServer(handler).listen(3000, (err) =>{
+  createServer(handler).listen(3016, (err) =>{
     if(err) throw err;
     console.log('Proof of Existence is ready at localhost:3000')
   })

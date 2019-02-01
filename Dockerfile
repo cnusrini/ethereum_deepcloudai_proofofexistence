@@ -5,10 +5,10 @@ FROM node:carbon
 #Bundle image
 COPY . .
 
-RUN npm install
+RUN npm rebuild
 
 # Make port 80 available to the world outside this container
-EXPOSE 3011
+EXPOSE 3016
 
 # Run npm when the container launches
-CMD ["npm","run", "dev"]
+CMD ["npm","run","dev"]
