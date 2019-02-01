@@ -1,0 +1,43 @@
+{
+  "name": "proofofexistence",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnusrini/proofofexistence.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cnusrini/proofofexistence/issues"
+  },
+  "homepage": "https://github.com/cnusrini/proofofexistence#readme",
+  "dependencies": {
+    "bignumber.js": "^8.0.1",
+    "chai": "^4.2.0",
+    "ipfs-api": "^26.1.2",
+    "ipfs-mini": "^1.1.2",
+    "moment": "^2.24.0",
+    "next": "^4.1.4",
+    "next-routes": "^1.4.2",
+    "npm": "^6.5.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.83.0",
+    "solc": "^0.5.2",
+    "truffle-assertions": "^0.7.2",
+    "truffle-hdwallet-provider": "^1.0.2",
+    "uport-connect": "^0.7.3",
+    "web3": "^1.0.0-beta.26"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "should": "^13.2.3"
+  }
+}

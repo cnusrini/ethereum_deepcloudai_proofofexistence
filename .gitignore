@@ -1,0 +1,5 @@
+# This project files are commited to remote repository with the below files/folders ignored :
+/node_modules
+/build/contracts
+.next/
+package-lock.json/
